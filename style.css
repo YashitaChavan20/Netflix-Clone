@@ -6,6 +6,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background-color: black;
+}
+
 .main {
   background-image: url("assets/images/bg.jpg");
   background-position: center center;
@@ -13,12 +17,12 @@
   background-size: max(2000px, 100%);
   background-color: black;
   /* background-size: 100vw; */
-  height: 80vh;
+  height: 70vh;
   position: relative;
 }
 
 .main .box {
-  height: 80vh;
+  height: 70vh;
   width: 100%;
   opacity: 0.44;
   background-color: black;
@@ -56,18 +60,22 @@ nav button {
   flex-direction: column;
   color: white;
   position: relative;
+  padding: 30px;
 }
 .content > :nth-child(1) {
   font-weight: bolder;
   font-size: 48px;
+  text-align: center;
 }
 .content > :nth-child(2) {
   font-weight: 400;
   font-size: 19px;
+  text-align: center;
 }
 .content > :nth-child(3) {
   font-weight: 400;
   font-size: 15px;
+  text-align: center;
 }
 .content div input {
   padding: 3px 8px;
@@ -77,12 +85,16 @@ nav button {
   border-radius: 4px;
   border: 1px solid white;
   cursor: pointer;
+  text-align: center;
+
 }
 .content div button {
   background-color: red;
-    color: white;
-    padding: 3px 24px;
-    font-size: 20px;
-    border-radius: 4px;
-    font-weight: 400;
+  color: white;
+  padding: 3px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 400;
+  text-align: center;
+
 }
