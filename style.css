@@ -113,6 +113,11 @@ nav button {
 .btn {
   padding: 3px 8px;
   font-weight: bold;
+  color: white;
+  background-color: rgba(196, 193, 193, 0);
+  border: 1px solid white;
+  border-radius: 4px;
+cursor: pointer;
 }
 
 .red-btn-sm {
